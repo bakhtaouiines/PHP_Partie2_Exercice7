@@ -1,11 +1,11 @@
 <?php
-$isOk = true;
-if ($isOk)
+$isOk = false;
+if ($isOk == false)
 {
-    echo "C'est ok !!";
+    echo "C'est pas bon !!!";
 }
 else
 {
-    echo "C'est pas bon !!!";
+    echo "C'est ok !!";
 }
 ?>
